@@ -1,9 +1,13 @@
 body{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .container{
     margin: 0 166px;
 }
+
+/* styling header start */
 
 .header{
     background-image: url(../images/header-bg.jpg);
@@ -11,3 +15,18 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;    
+}
+
+
+
+/* styling header end */
