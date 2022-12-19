@@ -80,18 +80,62 @@ body {
     font-size: 14px;
     padding: 14px 18px;
     transition: background-color 0.2s linear;
-
 }
 
 .button:hover {
     background-color: #fc0404;
 }
 
+.header-down {
+    position: relative;
+}
+
 .header-title {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    margin-top: 315px;
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 50px;
+    line-height: 57px;
     color: #D67E35;
 }
+
+.header-subtitle {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header-suptitle {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header-suptitle::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+    top: 0;
+    left: 0;
+}
+
+.header-suptitle::before {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+    top: 0;
+    right: 0;
+}
+
+
 
 /* styling header end */
