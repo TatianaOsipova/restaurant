@@ -83,7 +83,7 @@ body {
 }
 
 .button:hover {
-    background-color: #fc0404;
+    background-color: #904506;
 }
 
 .header-down {
@@ -106,7 +106,7 @@ body {
 .header-subtitle {
     font-weight: 400;
     font-size: 80px;
-    line-height: 92px;    
+    line-height: 92px;
 }
 
 .header-suptitle {
@@ -135,6 +135,21 @@ body {
     background: #C4C4C4;
     top: 160px;
     right: 50px;
+}
+
+.header-button {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+
+.header-button:hover {
+    background-color: #904506;
 }
 
 
