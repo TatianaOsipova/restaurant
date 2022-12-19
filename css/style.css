@@ -95,17 +95,18 @@ body {
     left: 0;
     text-align: center;
     margin-top: 315px;
+    margin-bottom: 12px;
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 50px;
-    line-height: 57px;
+    /* line-height: 57px; */
     color: #D67E35;
 }
 
 .header-subtitle {
     font-weight: 400;
     font-size: 80px;
-    line-height: 92px;
+    line-height: 92px;    
 }
 
 .header-suptitle {
@@ -122,8 +123,8 @@ body {
     width: 61px;
     height: 2px;
     background: #C4C4C4;
-    top: 0;
-    left: 0;
+    top: 160px;
+    left: 50px;
 }
 
 .header-suptitle::before {
@@ -132,8 +133,8 @@ body {
     width: 61px;
     height: 2px;
     background: #C4C4C4;
-    top: 0;
-    right: 0;
+    top: 160px;
+    right: 50px;
 }
 
 
