@@ -188,14 +188,14 @@ body {
     color: #2C2C2C;
 }
 
-.card-title span{
+.card-title span {
     margin-left: 2px;
     color: #BC9060;
 }
 
 .card-desc {
     text-align: center;
-    font-family: 'Tinos', serif;    
+    font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
@@ -206,9 +206,44 @@ body {
 
 /* history start */
 
+.history {
+    margin-top: 166px;
+}
 
+.history-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #D67E34;
+}
+
+.history-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.number-item {}
 
 /* history end */
-
-
-
