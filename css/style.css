@@ -156,31 +156,51 @@ body {
 
 /* styling cards start */
 
-.cards-holder{
+.cards-holder {
     display: flex;
+    justify-content: center;
 }
 
-.card{
+.card {
+    width: 349px;
     background-color: #fff;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-    width: 349px;
     margin-right: 31px;
+    margin-top: -80px;
+    padding: 0 10px;
 }
 
 .card-image {
     display: flex;
     justify-content: center;
+    padding-top: 31px;
 }
 
 .card-title {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.card-title span{
+    color: #BC9060;
 }
 
 .card-desc {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-family: 'Tinos', serif;    
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
 }
+
+
 
 
 
