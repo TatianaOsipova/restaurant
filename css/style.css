@@ -253,8 +253,7 @@ body {
     text-align: center;
     color: #656363;
     width: 444px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .history-number {
@@ -291,28 +290,28 @@ body {
     position: absolute;
     z-index: 999;
     top: 65px;
-    left: -550px;
+    left: -570px;
 }
 
 .images-2{
     position: absolute;
     z-index: 1;
     top: -10px;
-    left: -354px;
+    left: -400px;
 }
 
 .images-3{
     position: absolute;
     z-index: 999;
-    top: 0px;
-    left: 0px;
+    top: 164px;
+    left: -240px;
 }
 
 .images-4{
     position: absolute;
     z-index: 0;
-    top: 34px;
-    left: -248px;
+    top: -46px;
+    left: -280px;
 }
 
 /* history end */
