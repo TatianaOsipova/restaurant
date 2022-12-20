@@ -156,9 +156,15 @@ body {
 
 /* styling cards start */
 
+.cards-holder{
+    display: flex;
+}
+
 .card{
-    background-color: rgb(181, 174, 174);
-    width: 33%;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    margin-right: 31px;
 }
 
 .card-image {
