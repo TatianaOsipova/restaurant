@@ -163,6 +163,7 @@ body {
 
 .card {
     width: 349px;
+    height: 328px;
     background-color: #fff;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     margin-right: 31px;
@@ -188,6 +189,7 @@ body {
 }
 
 .card-title span{
+    margin-left: 2px;
     color: #BC9060;
 }
 
@@ -200,10 +202,13 @@ body {
     color: #656363;
 }
 
-
-
-
-
-
-
 /* styling cards end */
+
+/* history start */
+
+
+
+/* history end */
+
+
+
