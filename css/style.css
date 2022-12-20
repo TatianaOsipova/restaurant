@@ -156,7 +156,27 @@ body {
 
 /* styling cards start */
 
+.card{
+    background-color: rgb(181, 174, 174);
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-desc {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 /* styling cards end */
-
