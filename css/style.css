@@ -222,6 +222,7 @@ body {
 
 .history {
     margin-top: 166px;
+    margin-bottom: 182px;
 }
 
 .history-holder{
@@ -237,7 +238,7 @@ body {
     color: #000000;
     width: 444px;
     text-align: center;
-    margin-top: 21px;
+    margin-bottom: 21px;
 }
 
 .history-title span {
@@ -253,6 +254,7 @@ body {
     color: #656363;
     width: 444px;
     text-align: center;
+    
 }
 
 .history-number {
@@ -263,12 +265,13 @@ body {
 }
 
 .number-item {
-    margin-right: 60px;
+    margin-right: 60px;    
     font-weight: 400;
     font-size: 40px;
     line-height: 54px;
     color: #BC9060;
     text-align: center;
+    transform: translateX(50%);
 }
 
 .number-item span {
@@ -281,28 +284,35 @@ body {
 }
 
 .history-images{
-    position: relative;
+    position: relative;    
 }
 
-/* .images-1{
+.images-1{
     position: absolute;
-    z-index: 0;
-    top: 54px;
-    left: 214px;
+    z-index: 999;
+    top: 65px;
+    left: -550px;
 }
 
 .images-2{
     position: absolute;
-    z-index: 999;
-    top: -92px;
-    left: 383px;
+    z-index: 1;
+    top: -10px;
+    left: -354px;
 }
 
 .images-3{
     position: absolute;
     z-index: 999;
-    top: 241px;
-    left: 486px;
-} */
+    top: 0px;
+    left: 0px;
+}
+
+.images-4{
+    position: absolute;
+    z-index: 0;
+    top: 34px;
+    left: -248px;
+}
 
 /* history end */
