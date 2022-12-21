@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -225,7 +225,7 @@ body {
     padding-bottom: 182px;
 }
 
-.history__holder{
+.history__holder {
     display: flex;
     justify-content: space-between;
 }
@@ -253,7 +253,7 @@ body {
     text-align: center;
     color: #656363;
     width: 444px;
-    text-align: center;    
+    text-align: center;
 }
 
 .history__number {
@@ -264,7 +264,7 @@ body {
 }
 
 .number__item {
-    margin-right: 60px;    
+    margin-right: 60px;
     font-weight: 400;
     font-size: 40px;
     line-height: 54px;
@@ -282,32 +282,32 @@ body {
     color: #000000;
 }
 
-.history__images{
-    position: relative;    
+.history__images {
+    position: relative;
 }
 
-.images__1{
+.images__1 {
     position: absolute;
     z-index: 999;
     top: 65px;
     left: -570px;
 }
 
-.images__2{
+.images__2 {
     position: absolute;
     z-index: 1;
     top: -10px;
     left: -400px;
 }
 
-.images__3{
+.images__3 {
     position: absolute;
     z-index: 999;
     top: 164px;
     left: -240px;
 }
 
-.images__4{
+.images__4 {
     position: absolute;
     z-index: 0;
     top: -46px;
@@ -317,5 +317,17 @@ body {
 /* styling section history end */
 
 /* styling black block start */
+
+.black__block {
+    background-image: url(../images/blackblock-bg.jpg);
+}
+
+.black__title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
 
 /* section black block end */
