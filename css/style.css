@@ -222,7 +222,7 @@ body {
 
 .history {
     margin-top: 166px;
-    margin-bottom: 182px;
+    padding-bottom: 182px;
 }
 
 .history__holder{
@@ -315,3 +315,7 @@ body {
 }
 
 /* styling section history end */
+
+/* styling black block start */
+
+/* section black block end */
