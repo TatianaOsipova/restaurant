@@ -322,12 +322,35 @@ body {
     background-image: url(../images/blackblock-bg.jpg);
 }
 
-.black__title {
+.left__title {
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 52px;
     line-height: 60px;
     color: #D67E34;
+    margin-bottom: 20px;
+}
+
+.left__text {
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.right__btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 18px;
+    transition: background-color 0.2s linear;
+}
+
+.right__btn:hover {
+    background-color: #904506;
 }
 
 /* section black block end */
