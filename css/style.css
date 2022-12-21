@@ -16,7 +16,7 @@ body {
 /* styling header start */
 
 .header {
-    background-image: url(../images/103.jpg);
+    background-image: url(../images/header-bg.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body {
     font-weight: 400;
     font-size: 50px;
     /* line-height: 57px; */
-    color: #D67E35;
+    color: #d36e1b;
 }
 
 .header__subtitle {
@@ -379,22 +379,22 @@ body {
     color: #D67E34;
 }
 
-.burgers {
+.dishes__main {
     display: flex;
     justify-content: center;
 }
 
-.burger__item {
+.dish__item {
     display: flex;
     align-items: center;
-    margin-bottom: 26px;
+    margin-bottom: 29px;
 }
 
-.burgers__image {
+.dish__main-img {
     margin-right: 20px;
 }
 
-.burger__text {
+.dish__text {
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 26px;
