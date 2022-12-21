@@ -318,6 +318,13 @@ body {
 
 /* styling black block start */
 
+.block__holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
 .black__block {
     background-image: url(../images/blackblock-bg.jpg);
 }
@@ -332,7 +339,7 @@ body {
 }
 
 .left__text {
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
