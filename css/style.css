@@ -372,10 +372,37 @@ body {
     color: #000000;
     text-align: center;
     padding-top: 132px;
+    margin-bottom: 139px;
 }
 
-.dishes__title span{
+.dishes__title span {
     color: #D67E34;
 }
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burger__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.burgers__image {
+    margin-right: 20px;
+}
+
+.burger__text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+
 
 /* styling section dishes end */
