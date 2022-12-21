@@ -16,7 +16,7 @@ body {
 /* styling header start */
 
 .header {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../images/103.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,14 +30,14 @@ body {
     padding: 0 10px;
 }
 
-.header-line {
+.header__line {
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.nav-item {
+.nav__item {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
@@ -46,7 +46,7 @@ body {
     transition: color 0.3s linear;
 }
 
-.nav-item:hover {
+.nav__item:hover {
     color: #FF7400;
 }
 
@@ -57,7 +57,7 @@ body {
     height: 50px;
 }
 
-.cart-img {
+.cart__img {
     position: absolute;
     top: 18px;
     right: 20px;
@@ -75,13 +75,13 @@ body {
     color: #FF7400;
 }
 
-.phone-text {
+.phone__text {
     color: #fff;
     font-weight: 400;
     font-size: 14px;
 }
 
-.phone-holder {
+.phone__holder {
     display: flex;
     align-items: center;
 }
@@ -100,11 +100,11 @@ body {
     background-color: #904506;
 }
 
-.header-down {
+.header__down {
     position: relative;
 }
 
-.header-title {
+.header__title {
     position: absolute;
     left: 0;
     text-align: center;
@@ -117,13 +117,13 @@ body {
     color: #D67E35;
 }
 
-.header-subtitle {
+.header__subtitle {
     font-weight: 400;
     font-size: 80px;
     line-height: 92px;
 }
 
-.header-suptitle {
+.header__suptitle {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -131,7 +131,7 @@ body {
     line-height: 25px;
 }
 
-.header-suptitle::after {
+.header__suptitle::after {
     content: "";
     position: absolute;
     width: 61px;
@@ -141,7 +141,7 @@ body {
     left: 50px;
 }
 
-.header-suptitle::before {
+.header__suptitle::before {
     content: "";
     position: absolute;
     width: 61px;
@@ -151,7 +151,7 @@ body {
     right: 50px;
 }
 
-.header-button {
+.header__button {
     background-color: #FF7400;
     padding: 14px 28px;
     color: #fff;
@@ -162,15 +162,15 @@ body {
     transition: background-color 0.2s linear;
 }
 
-.header-button:hover {
+.header__button:hover {
     background-color: #904506;
 }
 
 /* styling header end */
 
-/* styling cards start */
+/* styling section cards start */
 
-.cards-holder {
+.cards__holder {
     display: flex;
     justify-content: center;
 }
@@ -185,13 +185,13 @@ body {
     padding: 0 10px;
 }
 
-.card-image {
+.card__image {
     display: flex;
     justify-content: center;
     padding-top: 31px;
 }
 
-.card-title {
+.card__title {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -202,12 +202,12 @@ body {
     color: #2C2C2C;
 }
 
-.card-title span {
+.card__title span {
     margin-left: 2px;
     color: #BC9060;
 }
 
-.card-desc {
+.card__desc {
     text-align: center;
     font-family: 'Tinos', serif;
     font-weight: 400;
@@ -216,21 +216,21 @@ body {
     color: #656363;
 }
 
-/* styling cards end */
+/* styling section cards end */
 
-/* history start */
+/* styling section history start */
 
 .history {
     margin-top: 166px;
     margin-bottom: 182px;
 }
 
-.history-holder{
+.history__holder{
     display: flex;
     justify-content: space-between;
 }
 
-.history-title {
+.history__title {
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 54px;
@@ -241,11 +241,11 @@ body {
     margin-bottom: 21px;
 }
 
-.history-title span {
+.history__title span {
     color: #D67E34;
 }
 
-.history-desc {
+.history__desc {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -256,14 +256,14 @@ body {
     text-align: center;    
 }
 
-.history-number {
+.history__number {
     display: flex;
     justify-content: center;
     width: 444px;
     margin-top: 40px;
 }
 
-.number-item {
+.number__item {
     margin-right: 60px;    
     font-weight: 400;
     font-size: 40px;
@@ -273,7 +273,7 @@ body {
     transform: translateX(50%);
 }
 
-.number-item span {
+.number__item span {
     display: block;
     font-weight: 400;
     font-size: 20px;
@@ -282,36 +282,36 @@ body {
     color: #000000;
 }
 
-.history-images{
+.history__images{
     position: relative;    
 }
 
-.images-1{
+.images__1{
     position: absolute;
     z-index: 999;
     top: 65px;
     left: -570px;
 }
 
-.images-2{
+.images__2{
     position: absolute;
     z-index: 1;
     top: -10px;
     left: -400px;
 }
 
-.images-3{
+.images__3{
     position: absolute;
     z-index: 999;
     top: 164px;
     left: -240px;
 }
 
-.images-4{
+.images__4{
     position: absolute;
     z-index: 0;
     top: -46px;
     left: -280px;
 }
 
-/* history end */
+/* styling section history end */
