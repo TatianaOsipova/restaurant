@@ -316,7 +316,7 @@ body {
 
 /* styling section history end */
 
-/* styling black block start */
+/* styling section black block start */
 
 .block__holder {
     display: flex;
@@ -360,4 +360,21 @@ body {
     background-color: #904506;
 }
 
-/* section black block end */
+/* styling section black block end */
+
+/* styling section dishes start */
+
+.dishes__title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+}
+
+.dishes__title span{
+    color: #D67E34;
+}
+
+/* styling section dishes end */
