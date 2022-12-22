@@ -465,6 +465,16 @@ body {
     margin-left: 20px;
 }
 
-
-
 /* styling section dishes end */
+
+/* styling section menu start */
+
+.menu{
+    background-image: url(../images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* styling section menu end */
