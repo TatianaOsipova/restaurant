@@ -469,12 +469,33 @@ body {
 
 /* styling section menu start */
 
-.menu{
+.menu {
     background-image: url(../images/menu-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.menu__title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 98px;
+    text-align: center;
+    padding-bottom: 138px;
+}
+
+.menu__item{
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+}
+
+
 
 
 /* styling section menu end */
