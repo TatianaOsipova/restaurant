@@ -607,7 +607,20 @@ body {
 
 /* styling section gallery start */
 
+.gallery__title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.gallery__title span {
+    color: #D67E34;
+}
+
+
+
 
 
 /* styling section gallery end */
-
