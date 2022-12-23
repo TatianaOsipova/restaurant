@@ -642,6 +642,10 @@ body {
 
 /* styling section cook start */
 
+.cook{
+    padding-bottom: 100px;
+}
+
 .cook__title {
     font-family: 'Tinos', serif;
     font-weight: 400;
@@ -663,3 +667,39 @@ body {
 }
 
 /* styling section cook end */
+
+/* styling footer start */
+
+.footer{
+    background-color: #000000;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy,
+.footer__button{
+    transform: translateY(35%);
+}
+
+.footer__button-btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 18px;
+    transition: background-color 0.2s linear;
+}
+
+.footer__button-btn:hover {
+    background-color: #904506;
+}
+
+
+
+/* styling footer end */
