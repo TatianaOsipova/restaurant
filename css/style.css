@@ -622,20 +622,44 @@ body {
     color: #D67E34;
 }
 
-.gallery__content{
+.gallery__content {
     display: flex;
     justify-content: center;
 }
 
-.gallery__left{
+.gallery__left {
     margin-right: 20px;
 }
 
 .gallery__down,
-.gallery__up{
+.gallery__up {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
 /* styling section gallery end */
+
+/* styling section cook start */
+
+.cook__title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 107px;
+}
+
+.cook__title span{
+    color: #D67E34;
+}
+
+.cook__content{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* styling section cook end */
