@@ -561,10 +561,49 @@ body {
 /* styling section menu end */
 
 /* styling section comment start */
-.comment{
-    background-color:  #E6E5E5;
-    
+
+.comment {
+    background-color: #E6E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
 }
+
+.comment__text {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.comment__image {
+    text-align: center;
+}
+
+.comment__type {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.comment__name {
+    padding-top: 9px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+}
+
+
 
 
 
