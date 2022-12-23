@@ -111,7 +111,6 @@ body {
     margin-bottom: 12px;
 }
 
-
 .header__title {
     font-family: 'Tinos', serif;
     font-weight: 400;
@@ -120,7 +119,6 @@ body {
     color: #D67E35;
     margin-top: 300px;
     margin-bottom: -10px;
-
 }
 
 .header__title span {
@@ -535,9 +533,8 @@ body {
     font-size: 16px;
 }
 
-.menu__button:hover {
-    color: #FF7400;
-
+.menu__button-btn:hover {
+    background-color: #904506;
 }
 
 .price__img {
