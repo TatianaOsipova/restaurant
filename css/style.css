@@ -566,16 +566,16 @@ body {
 
 /* styling section comment start */
 
-.comment {    
+.comment {
     background-color: #E6E5E5;
     padding-top: 104px;
-    padding-bottom: 139px;    
-    text-align: center;       
+    padding-bottom: 139px;
+    text-align: center;
 }
 
-.comment__inner{
-    max-width: 700px; 
-    margin: 0 auto;   
+.comment__inner {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .comment__text {
@@ -711,6 +711,27 @@ body {
     background-color: #904506;
 }
 
-
-
 /* styling footer end */
+
+@media (max-width: 1120px) {
+    .gallery__content {
+        display: block;
+    }
+
+    .img__gal,
+    .gallery__up,
+    .gallery__down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img__gal {
+        margin-bottom: 20px;
+    }
+
+    .gallery__left {
+        margin-right: 0;
+    }
+
+}
