@@ -492,7 +492,7 @@ body {
     padding-bottom: 138px;
 }
 
-.menu__title span{
+.menu__title span {
     color: #D67E35;
 }
 
@@ -566,13 +566,20 @@ body {
 
 /* styling section comment start */
 
-.comment {
+.comment {    
     background-color: #E6E5E5;
     padding-top: 104px;
-    padding-bottom: 139px;
+    padding-bottom: 139px;    
+    text-align: center;       
+}
+
+.comment__inner{
+    max-width: 700px; 
+    margin: 0 auto;   
 }
 
 .comment__text {
+    display: flex;
     text-align: center;
     font-family: 'Open Sans';
     font-style: italic;
@@ -646,7 +653,7 @@ body {
 
 /* styling section cook start */
 
-.cook{
+.cook {
     padding-bottom: 100px;
 }
 
@@ -661,11 +668,11 @@ body {
     margin-bottom: 107px;
 }
 
-.cook__title span{
+.cook__title span {
     color: #D67E34;
 }
 
-.cook__content{
+.cook__content {
     display: flex;
     justify-content: space-around;
 }
@@ -674,19 +681,19 @@ body {
 
 /* styling footer start */
 
-.footer{
+.footer {
     background-color: #000000;
     padding: 50px 0;
     color: #fff;
 }
 
-.footer__content{
+.footer__content {
     display: flex;
     justify-content: space-between;
 }
 
 .copy,
-.footer__button{
+.footer__button {
     transform: translateY(35%);
 }
 
