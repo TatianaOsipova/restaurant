@@ -144,7 +144,7 @@ body {
     height: 2px;
     background: #C4C4C4;
     top: 469px;
-    left: 50px;
+    left: 0;
 }
 
 .header__subtitle::before {
@@ -154,7 +154,7 @@ body {
     height: 2px;
     background: #C4C4C4;
     top: 469px;
-    right: 50px;
+    right: 0;
 }
 
 /* .header__subtitle {
@@ -485,11 +485,15 @@ body {
     font-weight: 400;
     font-size: 54px;
     line-height: 62px;
-    color: #D67E35;
+    color: #fff;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     padding-top: 130px;
     text-align: center;
     padding-bottom: 138px;
+}
+
+.menu__title span{
+    color: #D67E35;
 }
 
 .menu__item {
