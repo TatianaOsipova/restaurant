@@ -499,7 +499,7 @@ body {
     position: relative;
 }
 
-.price-420 {
+.price-dollar {
     position: absolute;
     bottom: 34px;
     right: 98px;
@@ -716,20 +716,11 @@ body {
 
     .dishes__inner {
         display: block;
-
     }
 
     .dish__main {
         margin-bottom: 20px;
-    }
-
-    .dish__item {
-        display: block;
-    }
-
-    .dish__text {
-        text-align: center;
-    }
+    }    
 
     .menu__title {
         padding-bottom: 80px;
@@ -743,14 +734,12 @@ body {
         margin-bottom: 20px;
         align-items: center;
     }
-
 }
 
 @media (max-width: 970px) {
     .card__desc {
         font-size: 18px;
     }
-
 
     .menu__title {
         padding-top: 50px;
