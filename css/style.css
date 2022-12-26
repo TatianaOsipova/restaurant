@@ -842,8 +842,8 @@ body {
 @media (max-width: 800px) {
     .header__inner {
         position: static;
+        padding-top: 0px;
     }
-
 
     .header__title,
     .header__title span {
@@ -877,6 +877,8 @@ body {
 }
 
 @media(max-width: 570px) {
+
+
     .wide {
         display: none;
     }
