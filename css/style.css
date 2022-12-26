@@ -842,12 +842,16 @@ body {
 @media (max-width: 800px) {
     .header__inner {
         position: static;
-        padding-top: 0px;
+        padding: 0;
+    }
+
+    .header__title{
+        margin-top: 200px;
     }
 
     .header__title,
     .header__title span {
-        color: rgb(253, 253, 253);
+        color: rgb(255, 255, 254);
     }
 
     .card,
