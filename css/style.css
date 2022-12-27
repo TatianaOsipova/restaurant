@@ -640,7 +640,7 @@ body {
     justify-content: space-between;
     /* max-width: 800px; */
     margin: 0 auto;
-    
+
 }
 
 .copy,
@@ -668,6 +668,24 @@ body {
 } */
 
 .burger__menu {
+    display: none;
+}
+
+.burger__slide {
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
     display: none;
 }
 
@@ -879,16 +897,16 @@ body {
     }
 
     .footer__content {
-        display: block;  
+        display: block;
         text-align: center;
     }
 
     .footer__logo {
-        padding-bottom: 15px;        
-    }    
+        padding-bottom: 15px;
+    }
 
     .footer__button {
-        padding-top: 30px;        
+        padding-top: 30px;
     }
 }
 
