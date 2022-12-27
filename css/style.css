@@ -638,11 +638,15 @@ body {
 .footer__content {
     display: flex;
     justify-content: space-between;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    
 }
 
 .copy,
 .footer__button {
-    transform: translateY(35%);
+    margin-top: 25px;
+    /* transform: translateY(35%); */
 }
 
 .footer__button-btn {
@@ -875,15 +879,16 @@ body {
     }
 
     .footer__content {
-        display: block;
+        display: block;  
+        text-align: center;
     }
 
     .footer__logo {
-        padding-bottom: 15px;
-    }
+        padding-bottom: 15px;        
+    }    
 
     .footer__button {
-        padding-top: 30px;
+        padding-top: 30px;        
     }
 }
 
