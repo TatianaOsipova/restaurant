@@ -673,8 +673,8 @@ body {
 
 .burger__slide {
     position: absolute;
-    transform: translateX(-62%); 
-    text-align: right;   
+    transform: translateX(-62%);
+    text-align: right;
     text-decoration: underline;
     /* text-align: center;    
     border: 1px solid #D67E35;
@@ -684,9 +684,9 @@ body {
 }
 
 .block {
-    display: block; 
-    font-size: 20px;    
-    margin-bottom: 20px;    
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -951,4 +951,4 @@ button {
     }
 }
 
-/* site adaptation start */
+/* site adaptation end */
