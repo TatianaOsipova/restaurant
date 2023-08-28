@@ -13,6 +13,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
 /* styling header start */
 
 .header {
@@ -24,13 +35,106 @@ body {
 }
 
 .container {
-    /* margin: 0 166px; */
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.header__line {
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 23px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav__list a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav__list li a:hover{
+    color: #FF7400;
+}
+
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    padding-left: 35px;
+    height: 50px;
+}
+
+.cart__img {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.num {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.3s linear;
+    font-style: normal;
+}
+
+.num:hover {
+    color: #FF7400;
+}
+
+.phone__text {
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.phone__holder {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__reserv a {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 18px;
+    transition: background-color 0.2s linear;
+}
+
+.nav__reserv a:hover {
+    background-color: #904506;
+}
+
+.nav__toggle {
+    display: none;
+}
+
+
+
+
+/* .header__line {
     padding-top: 50px;
     display: flex;
     align-items: center;
@@ -98,7 +202,7 @@ body {
 
 .button:hover {
     background-color: #904506;
-}
+} */
 
 .header__down {
     position: relative;
@@ -701,6 +805,63 @@ button {
 
 /* styling footer end */
 
+/* burger-menu start */
+
+.menu-icon-wrapper {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: #FF7400;
+}
+
+.menu-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: #FF7400;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: #FF7400;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu-icon.menu-icon-active {
+    background-color: transparent;
+}
+
+.menu-icon.menu-icon-active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+.menu-icon.menu-icon-active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+} 
+
+/* burger-menu end */
+
 /* site adaptation start */
 
 @media (max-width: 1120px) {
@@ -814,9 +975,68 @@ button {
 }
 
 @media (max-width: 970px) {
-    .burger__menu {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__login {
+        display: none;
+    }
+
+    .nav__toggle {
         display: block;
     }
+
+    .nav--mobile {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background: linear-gradient(243deg, #428E5F 17.38%, #112120 58.4%), #204434;
+    }
+
+    .nav--mobile .logo {
+        font-size: 34px;
+    }
+
+    .nav--mobile .nav__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+        font-size: 22px;
+    }
+
+    .nav--mobile .nav__list a.active::after,
+    .nav--mobile .nav__list a.hover::after {
+        display: none;
+    }
+
+    .nav--mobile .nav__login {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+        font-size: 22px;
+    }
+
+    .nav--mobile .nav__toggle {
+        position: fixed;
+        top: 50px;
+        right: 50px;
+    }
+
+
+
+
+
+
 
     .nav,
     .cart,
