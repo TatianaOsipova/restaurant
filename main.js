@@ -14,3 +14,4 @@ navBtn.onclick = function(){
     nav.classList.toggle('nav--mobile');
     menuIcon.classList.toggle('menu-icon-active');
 };
+
