@@ -38,37 +38,23 @@ li {
     padding: 0 10px;
 }
 
-.header__top {
+.header-line {
     padding-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 20px;
-    align-items: center;
-}
-
-.nav__list {
-    display: flex;
-    gap: 23px;
-    font-weight: 500;
-    font-size: 14px;
+.nav-item {
     color: #fff;
-}
-
-.nav__list a {
-    position: relative;
-    color: #fff;
-    font-size: 14px;
+    text-decoration: none;
     font-weight: 700;
-    font-style: normal;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color .3s linear;
 }
 
-.nav__list li a:hover{
+.nav-item:hover{
     color: #FF7400;
 }
 
@@ -76,18 +62,18 @@ li {
     position: relative;
     border-right: 1px solid #FFFFFF;
     padding-right: 10px;
-    padding-left: 35px;
     height: 50px;
 }
 
 .cart__img {
     position: absolute;
     top: 18px;
-    right: 20px;
+    right: 7px;
 }
 
 .num {
     color: #fff;
+    text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     transition: color 0.3s linear;
@@ -95,7 +81,7 @@ li {
 }
 
 .num:hover {
-    color: #FF7400;
+    color: #0fc31b;
 }
 
 .phone__text {
@@ -104,23 +90,23 @@ li {
     font-size: 14px;
 }
 
-.phone__holder {
+.phone-holder {
     display: flex;
     align-items: center;
 }
 
-.nav__reserv a {
+.button {
     background-color: #FF7400;
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
     padding: 14px 18px;
-    transition: background-color 0.2s linear;
+    font-weight: 700;
+    transition: background-color 0.3s linear;
 }
 
-.nav__reserv a:hover {
+.button:hover{
     background-color: #904506;
+
 }
 
 .header__down {
@@ -687,11 +673,24 @@ li {
     background-color: #904506;
 }
 
-/* .menu__item-image img{
-    width: 90%;
-} */
+/* burger-menu start */
 
-.burger__menu {
+.menu__btn {
+    display: none;
+    width: 30px;
+    height: 25px;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__btn span {
+    height: 1px;
+    background-color: #ff0000;
+    width: 100%;
+}
+
+/* .burger__menu {
     display: none;
 }
 
@@ -700,11 +699,11 @@ li {
     transform: translateX(-62%);
     text-align: right;
     text-decoration: underline;
-    /* text-align: center;    
+    text-align: center;    
     border: 1px solid #D67E35;
     border-radius: 3px;
     background-color: rgb(214, 126, 53, 0.25);
-    padding: 20px 0 0 25px;        */
+    padding: 20px 0 0 25px;       
 }
 
 .block {
@@ -721,7 +720,7 @@ button {
 
 .disp {
     display: none;
-}
+} */
 
 /* styling footer end */
 
@@ -812,7 +811,7 @@ button {
         text-align: center;
     }
 
-    .right__button{
+    .right__button {
         padding-top: 50px;
     }
 
@@ -842,62 +841,6 @@ button {
 }
 
 @media (max-width: 970px) {
-    .nav__list {
-        display: none;
-    }
-
-    .nav__login {
-        display: none;
-    }
-
-    .nav__toggle {
-        display: block;
-    }
-
-    .nav--mobile {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99;
-        background: linear-gradient(243deg, #428E5F 17.38%, #112120 58.4%), #204434;
-    }
-
-    .nav--mobile .logo {
-        font-size: 34px;
-    }
-
-    .nav--mobile .nav__list {
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-        align-items: center;
-        font-size: 22px;
-    }
-
-    .nav--mobile .nav__list a.active::after,
-    .nav--mobile .nav__list a.hover::after {
-        display: none;
-    }
-
-    .nav--mobile .nav__login {
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-        align-items: center;
-        font-size: 22px;
-    }
-
-    .nav--mobile .nav__toggle {
-        position: fixed;
-        top: 50px;
-        right: 50px;
-    }
 
     .nav,
     .cart,
