@@ -2,16 +2,14 @@
 // const menu = document.querySelector('#menu');
 
 // burger.addEventListener('click', () => {
-//     menu.classList.toggle('disp')
-
+//     menu.classList.toggle('disp');
 // });
 
-const navBtn = document.querySelector('.nav__toggle');
-const menuIcon = document.querySelector('.menu-icon');
-const nav = document.querySelector('.nav');
+const menuBtn = document.querySelector('.menu__btn');
+const menuMobile = document.querySelector('.nav__list-header');
 
-navBtn.onclick = function(){
-    nav.classList.toggle('nav--mobile');
-    menuIcon.classList.toggle('menu-icon-active');
-};
+menuBtn.addEventListener('click', () => {
+  menuMobile.classList.toggle('menu--open');
+});
+
 

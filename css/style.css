@@ -22,8 +22,6 @@ li {
     list-style: none;
 }
 
-
-
 /* styling header start */
 
 .header {
@@ -101,7 +99,6 @@ li {
 }
 
 .phone__text {
-
     color: #fff;
     font-weight: 400;
     font-size: 14px;
@@ -111,7 +108,6 @@ li {
     display: flex;
     align-items: center;
 }
-
 
 .nav__reserv a {
     background-color: #FF7400;
@@ -126,83 +122,6 @@ li {
 .nav__reserv a:hover {
     background-color: #904506;
 }
-
-.nav__toggle {
-    display: none;
-}
-
-
-
-
-/* .header__line {
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nav__item {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
-    margin-right: 25px;
-    transition: color 0.3s linear;
-}
-
-.nav__item:hover {
-    color: #FF7400;
-}
-
-.cart {
-    position: relative;
-    border-right: 1px solid #FFFFFF;
-    padding-right: 10px;
-    height: 50px;
-}
-
-.cart__img {
-    position: absolute;
-    top: 18px;
-    right: 20px;
-}
-
-.num {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    transition: color 0.3s linear;
-}
-
-.num:hover {
-    color: #FF7400;
-}
-
-.phone__text {
-    color: #fff;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.phone__holder {
-    display: flex;
-    align-items: center;
-}
-
-.button {
-    background-color: #FF7400;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 14px 18px;
-    transition: background-color 0.2s linear;
-}
-
-.button:hover {
-    background-color: #904506;
-} */
 
 .header__down {
     position: relative;
@@ -222,7 +141,7 @@ li {
     line-height: 57px;
     color: #D67E35;
     margin-top: 300px;
-    margin-bottom: -10px;
+    margin-bottom: 12px;
 }
 
 .header__title span {
@@ -238,6 +157,7 @@ li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    padding-bottom: 40px;
     /* line-height: 25px; */
 }
 
@@ -805,63 +725,6 @@ button {
 
 /* styling footer end */
 
-/* burger-menu start */
-
-.menu-icon-wrapper {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-icon {
-    position: relative;
-    width: 30px;
-    height: 4px;
-    background-color: #FF7400;
-}
-
-.menu-icon::before {
-    position: absolute;
-    left: 0;
-    top: -10px;
-    content: '';
-    width: 30px;
-    height: 4px;
-    background-color: #FF7400;
-    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-}
-
-.menu-icon::after {
-    position: absolute;
-    left: 0;
-    top: 10px;
-    content: '';
-    width: 30px;
-    height: 4px;
-    background-color: #FF7400;
-    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-}
-
-.menu-icon.menu-icon-active {
-    background-color: transparent;
-}
-
-.menu-icon.menu-icon-active::before {
-    transform: rotate(45deg);
-    top: 0;
-    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-}
-
-.menu-icon.menu-icon-active::after {
-    transform: rotate(-45deg);
-    top: 0;
-    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-} 
-
-/* burger-menu end */
-
 /* site adaptation start */
 
 @media (max-width: 1120px) {
@@ -949,6 +812,10 @@ button {
         text-align: center;
     }
 
+    .right__button{
+        padding-top: 50px;
+    }
+
     .dishes__title {
         padding-top: 50px;
         margin-bottom: 100px;
@@ -1031,12 +898,6 @@ button {
         top: 50px;
         right: 50px;
     }
-
-
-
-
-
-
 
     .nav,
     .cart,
