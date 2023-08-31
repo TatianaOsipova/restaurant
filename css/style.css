@@ -690,11 +690,11 @@ li {
     width: 100%;
 }
 
-/* .burger__menu {
+ .burger-menu {
     display: none;
 }
 
-.burger__slide {
+/*.burger__slide {
     position: absolute;
     transform: translateX(-62%);
     text-align: right;
@@ -841,6 +841,9 @@ button {
 }
 
 @media (max-width: 970px) {
+    .burger-menu{
+        display: block;
+    }
 
     .nav,
     .cart,
@@ -849,7 +852,7 @@ button {
         display: none;
     }
 
-    .header__line {
+    .header-line {
         justify-content: space-between;
     }
 
