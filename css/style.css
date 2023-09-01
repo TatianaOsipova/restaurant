@@ -54,7 +54,7 @@ li {
     transition: color .3s linear;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     color: #FF7400;
 }
 
@@ -104,7 +104,7 @@ li {
     transition: background-color 0.3s linear;
 }
 
-.button:hover{
+.button:hover {
     background-color: #904506;
 
 }
@@ -675,7 +675,7 @@ li {
 
 /* burger-menu start */
 
-.menu__btn {
+/* .menu__btn {
     display: none;
     width: 30px;
     height: 25px;
@@ -688,22 +688,14 @@ li {
     height: 1px;
     background-color: #ff0000;
     width: 100%;
-}
+} */
 
- .burger-menu {
+.burger-menu {
     display: none;
 }
 
-/*.burger__slide {
+.burger__slide {
     position: absolute;
-    transform: translateX(-62%);
-    text-align: right;
-    text-decoration: underline;
-    text-align: center;    
-    border: 1px solid #D67E35;
-    border-radius: 3px;
-    background-color: rgb(214, 126, 53, 0.25);
-    padding: 20px 0 0 25px;       
 }
 
 .block {
@@ -720,7 +712,7 @@ button {
 
 .disp {
     display: none;
-} */
+}
 
 /* styling footer end */
 
@@ -841,8 +833,32 @@ button {
 }
 
 @media (max-width: 970px) {
-    .burger-menu{
+    .burger-menu {
         display: block;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .burger-slide {
+        position: absolute;
+        background-color: #b06527;
+        padding: 20px 20px 0 15px;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .disp {
+        display: none;
     }
 
     .nav,
