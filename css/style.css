@@ -759,12 +759,12 @@ button {
 
     .header__subtitle::before {
         width: 40px;
-        top: 462px;
+        top: 468px;
     }
 
     .header__subtitle::after {
         width: 40px;
-        top: 462px;
+        top: 468px;
     }
 
     .history {
@@ -926,11 +926,6 @@ button {
         font-size: 50px;
         line-height: 80px;
         color: rgb(255, 255, 254);
-    }
-
-    .card,
-    .menu__item {
-        width: auto;
     }
 
     .history__info {
