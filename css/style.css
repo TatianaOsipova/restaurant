@@ -58,6 +58,10 @@ li {
     color: #FF7400;
 }
 
+.active{
+    color: #FF7400;
+}
+
 .cart {
     position: relative;
     border-right: 1px solid #FFFFFF;
