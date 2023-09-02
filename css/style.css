@@ -951,6 +951,11 @@ button {
 }
 
 @media(max-width: 570px) {
+    .card,
+    .menu__item {
+        width: auto;
+    }
+
     .wide {
         display: none;
     }
