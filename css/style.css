@@ -675,27 +675,13 @@ li {
 
 /* burger-menu start */
 
-/* .menu__btn {
-    display: none;
-    width: 30px;
-    height: 25px;
-    background-color: transparent;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.menu__btn span {
-    height: 1px;
-    background-color: #ff0000;
-    width: 100%;
-} */
-
 .burger-menu {
     display: none;
 }
 
 .burger__slide {
     position: absolute;
+    transition-duration: .25s;
 }
 
 .block {
@@ -849,6 +835,7 @@ button {
         left: 0;
         top: 120px;
         text-align: center;
+        
     }
 
     button {
@@ -859,6 +846,7 @@ button {
 
     .disp {
         display: none;
+        
     }
 
     .nav,
